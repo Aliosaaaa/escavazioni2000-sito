@@ -125,12 +125,13 @@ table.zones td:first-child{font-weight:700;width:36%;padding-right:16px}
 form{display:grid;gap:14px;max-width:560px}
 label{font-size:14px;font-weight:700;display:block;margin-bottom:6px}
 label.chk{font-weight:400;font-size:14.5px;display:flex;gap:8px;align-items:flex-start}
-label.chk input{width:auto;margin-top:4px}
+label.chk input{width:18px;height:18px;flex:none;margin-top:3px}
 input,textarea,select{width:100%;padding:12px 14px;border:1px solid #c7d0d9;border-radius:5px;font:inherit;font-size:16px;background:#fff}
 input:focus,textarea:focus,select:focus{outline:2px solid var(--acc);outline-offset:1px;border-color:transparent}
 textarea{min-height:135px;resize:vertical}
 
-.todo{background:#fff6e0;border:1px dashed var(--acc);color:#8a6d1f;font-size:13px;padding:1px 7px;border-radius:4px;white-space:nowrap}
+.todo{background:#fff6e0;border:1px dashed var(--acc);color:#8a6d1f;font-size:13px;padding:1px 7px;border-radius:4px;
+      display:inline-block;max-width:100%;white-space:normal;overflow-wrap:anywhere}
 
 /* ── footer ── */
 footer{background:var(--dark);color:#c3ccd6;padding:52px 0 22px;font-size:15px}
