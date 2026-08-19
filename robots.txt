@@ -1,0 +1,4 @@
+# Anteprima di lavoro — non indicizzare.
+# Al momento della pubblicazione su escavazioni2000.it questo file va rigenerato con build.py.
+User-agent: *
+Disallow: /
