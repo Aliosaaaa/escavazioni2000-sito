@@ -5,7 +5,7 @@
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
   --ink:#141b24; --ink2:#39454f; --mute:#6d7885; --line:#e4e9ee; --line2:#f0f3f6;
-  --bg:#fff; --bg2:#f5f7f9; --acc:#e8a317; --acc2:#c98a0c; --dark:#141b24;
+  --bg:#fff; --bg2:#f5f7f9; --acc:#e81820; --acc2:#c2101a; --dark:#141b24;
   --max:1180px; --r:7px;
   --disp:"Oswald","Arial Narrow","Helvetica Neue Condensed",Impact,sans-serif;
 }
@@ -27,7 +27,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);backdro
 .logo img{height:52px;width:auto;display:block}
 .hcta{display:flex;align-items:center;gap:12px}
 .tel{font-weight:700;text-decoration:none;white-space:nowrap;font-size:15px;letter-spacing:-.01em}
-.btn{display:inline-block;background:var(--acc);color:#1a1200;text-decoration:none;
+.btn{display:inline-block;background:var(--acc);color:#fff;text-decoration:none;
      font-family:var(--disp);font-weight:600;text-transform:uppercase;letter-spacing:.9px;
      padding:12px 22px;border-radius:5px;font-size:15.5px;border:none;cursor:pointer;line-height:1.25;
      transition:background .15s,transform .12s}
@@ -51,14 +51,14 @@ nav a.on{color:var(--ink);border-bottom-color:var(--acc)}
             opacity:0;transition:opacity .8s ease;z-index:1}
 .hero .hvid.on{opacity:.74}
 .hero:after{content:"";position:absolute;inset:0;
-  background:linear-gradient(95deg,rgba(10,15,21,.88) 0%,rgba(10,15,21,.55) 50%,rgba(10,15,21,.12) 100%)}
+  background:linear-gradient(95deg,rgba(8,12,17,.93) 0%,rgba(8,12,17,.74) 48%,rgba(8,12,17,.42) 100%)}
 .hero .txt{position:absolute;inset:0;display:flex;align-items:center;z-index:2}
 .hero h1{font-size:clamp(36px,6.4vw,70px);max-width:23ch;line-height:1.03}
 .hero h1 .gold{color:var(--acc);display:block}
 .hero p{margin-top:18px;font-size:clamp(16.5px,2vw,21px);max-width:48ch;opacity:.94;line-height:1.55}
 .hero .acts{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
-.kick{display:inline-block;font-family:var(--disp);font-size:13.5px;letter-spacing:2.4px;text-transform:uppercase;color:var(--acc);font-weight:600;margin-bottom:18px}
-.kick.sm{font-size:10.5px;letter-spacing:1.6px;color:var(--acc2);margin-bottom:5px}
+.kick{display:inline-block;font-family:var(--disp);font-size:13.5px;letter-spacing:2.4px;text-transform:uppercase;color:#fff;opacity:.93;font-weight:600;margin-bottom:18px}
+.kick.sm{font-size:11px;letter-spacing:1.6px;color:var(--acc2);opacity:1;margin-bottom:5px}
 
 .phero{background:var(--dark);color:#fff;padding:52px 0 48px}
 .phero h1{font-size:clamp(32px,5.6vw,56px);max-width:21ch;line-height:1.04}
@@ -89,7 +89,7 @@ a.card:hover{box-shadow:0 10px 30px rgba(20,30,45,.13);transform:translateY(-3px
 .card img{aspect-ratio:4/3;object-fit:cover;width:100%}
 .card .bd{padding:17px 19px 19px}
 .card .bd p{color:var(--mute);font-size:15px;margin-top:5px}
-.card .more{display:inline-block;margin-top:12px;font-weight:700;font-size:14.5px;color:#0d5f92}
+.card .more{display:inline-block;margin-top:12px;font-weight:700;font-size:14.5px;color:var(--acc2)}
 .card.plain{background:#fff}
 
 .fig{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
@@ -123,11 +123,11 @@ table.zones td:first-child{font-weight:700;width:36%;padding-right:16px}
 .band p{opacity:.85;margin-top:11px;max-width:58ch}
 .band .acts{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
 
-.urg{background:linear-gradient(100deg,#2a1f05,#4a3608);color:#fff;padding:30px 0;border-top:3px solid var(--acc)}
+.urg{background:linear-gradient(100deg,#280a0c,#4c1318);color:#fff;padding:30px 0;border-top:3px solid var(--acc)}
 .uacts{display:flex;gap:10px;flex-wrap:wrap}
 .urg .btn.ghost{border-color:rgba(255,255,255,.55)}
 .urg .wrap{display:flex;align-items:center;justify-content:space-between;gap:28px;flex-wrap:wrap}
-.urg .k{display:inline-block;font-size:11px;letter-spacing:2.2px;text-transform:uppercase;color:var(--acc);font-weight:800}
+.urg .k{display:inline-block;font-family:var(--disp);font-size:12px;letter-spacing:2.2px;text-transform:uppercase;color:#ff6b63;font-weight:600}
 .urg h3{font-size:26px;margin-top:6px;max-width:24ch}
 .urg p{opacity:.82;font-size:15.5px;margin-top:6px;max-width:56ch}
 
@@ -173,7 +173,7 @@ footer li{margin-bottom:7px}
   nav a{padding:13px 4px;border-bottom:1px solid var(--line2)}
   .hero img{height:min(62vh,470px)}
   .hero .hvid{height:min(62vh,470px)}
-  .hero:after{background:linear-gradient(180deg,rgba(12,17,23,.62) 0%,rgba(12,17,23,.88) 100%)}
+  .hero:after{background:linear-gradient(180deg,rgba(8,12,17,.76) 0%,rgba(8,12,17,.94) 100%)}
   .tel{display:none}
   section{padding:44px 0}
   .phero{padding:38px 0 34px}
