@@ -7,4 +7,5 @@ Questa è l'**anteprima di lavoro**: alcune informazioni sono ancora da conferma
 Destinazione finale: **escavazioni2000.it**
 
 HTML statico, nessun framework, nessun cookie di profilazione.
-Il font dei titoli (Oswald) è ospitato insieme al sito: nessuna chiamata a Google.
+I font (Oswald per i titoli, Source Sans 3 per il testo) sono ospitati
+insieme al sito: nessuna chiamata a Google.
