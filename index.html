@@ -38,7 +38,7 @@
 
 <script>
 (function(){var v=document.querySelector('.hvid');if(!v)return;
-if(innerWidth<820||window.matchMedia('(prefers-reduced-motion:reduce)').matches)return;
+if(window.matchMedia('(prefers-reduced-motion:reduce)').matches)return;
 v.addEventListener('playing',function(){v.classList.add('on')});
 v.src='assets/video/cantiere-home.mp4';var p=v.play();if(p&&p.catch)p.catch(function(){});})();
 </script>

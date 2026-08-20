@@ -163,7 +163,7 @@ footer li{margin-bottom:7px}
   .navtoggle{display:block}
   nav a{padding:13px 4px;border-bottom:1px solid var(--line2)}
   .hero img{height:min(58vh,430px)}
-  .hero .hvid{display:none}
+  .hero .hvid{height:min(58vh,430px)}
   .hero:after{background:linear-gradient(180deg,rgba(12,17,23,.62) 0%,rgba(12,17,23,.88) 100%)}
   .tel{display:none}
   section{padding:44px 0}
