@@ -5,4 +5,3 @@ Anteprima di lavoro, non indicizzabile dai motori di ricerca.
 Destinazione finale: **escavazioni2000.it**
 
 HTML statico, nessun framework, nessun cookie di profilazione.
-I font (Oswald, Source Sans 3) sono ospitati insieme al sito.
