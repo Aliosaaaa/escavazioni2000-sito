@@ -95,6 +95,18 @@ a.card:hover{box-shadow:0 10px 30px rgba(20,30,45,.13);transform:translateY(-3px
 .fig{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff}
 .fig img{aspect-ratio:3/2;object-fit:cover;width:100%}
 .fig figcaption{padding:14px 17px 16px}
+
+/* ── prima e dopo ── */
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+.ba figure{position:relative;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:#fff;margin:0}
+.ba img{aspect-ratio:3/4;object-fit:cover;width:100%}
+.ba .lab{position:absolute;top:12px;left:12px;background:rgba(20,27,36,.92);color:#fff;
+   font-family:var(--disp);font-size:14px;font-weight:600;letter-spacing:1.6px;text-transform:uppercase;
+   padding:6px 14px;border-radius:4px}
+.ba .lab.dopo{background:var(--acc)}
+.ba figcaption{padding:12px 15px 14px;font-size:14.5px;color:var(--mute)}
+@media(max-width:560px){.ba{gap:10px}.ba .lab{font-size:12px;padding:4px 10px;letter-spacing:1.2px}
+  .ba figcaption{font-size:13px;padding:9px 11px 11px}}
 .fig b{display:block;font-family:var(--disp);font-size:19px;line-height:1.2;font-weight:600}
 .fig span{color:var(--mute);font-size:14.5px;display:block;margin-top:4px;line-height:1.5}
 
