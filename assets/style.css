@@ -4,6 +4,11 @@
           font-weight:200 700;font-style:normal;font-display:swap}
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
+  /* Il sito e' disegnato in chiaro. Senza questa riga Chrome, se ha acceso
+     "Auto Dark Mode for Web Contents", inverte da solo i colori della pagina:
+     il fondo diventa scuro e il rosso #e81820 diventa un celeste #17e7df.
+     E' successo davvero sul portatile del cliente, il 24 agosto 2026. */
+  color-scheme: only light;
   --ink:#141b24; --ink2:#39454f; --mute:#6d7885; --line:#e4e9ee; --line2:#f0f3f6;
   --bg:#fff; --bg2:#f5f7f9; --acc:#e81820; --acc2:#c2101a; --dark:#141b24;
   --max:1180px; --r:7px;
