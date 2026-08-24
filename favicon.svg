@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Escavazioni 2000">
+  <rect width="64" height="64" rx="12" fill="#141b24"/>
+  <path d="M6 45c11-6 22-9 33-9s19 2 19 2v6s-8-2-19-2-22 3-33 9z" fill="#e81820"/>
+  <text x="32" y="34" text-anchor="middle" font-family="Oswald,'Arial Narrow',Impact,sans-serif"
+        font-weight="700" font-size="34" fill="#fff" letter-spacing="1">E2</text>
+</svg>
