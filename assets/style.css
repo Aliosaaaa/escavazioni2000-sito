@@ -120,6 +120,9 @@ a.card:hover{box-shadow:0 10px 30px rgba(20,30,45,.13);transform:translateY(-3px
    padding:6px 14px;border-radius:4px}
 .ba .lab.dopo{background:var(--acc)}
 .ba figcaption{padding:12px 15px 14px;font-size:14.5px;color:var(--mute)}
+.ba.tre{grid-template-columns:repeat(3,1fr)}
+@media(max-width:760px){.ba.tre{grid-template-columns:1fr}
+  .ba.tre img{aspect-ratio:4/3}}
 @media(max-width:560px){.ba{gap:10px}.ba .lab{font-size:12px;padding:4px 10px;letter-spacing:1.2px}
   .ba figcaption{font-size:13px;padding:9px 11px 11px}}
 .fig b{display:block;font-family:var(--disp);font-size:19px;line-height:1.2;font-weight:600}
