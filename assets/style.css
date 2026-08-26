@@ -140,6 +140,15 @@ ul.ticks.cols li{break-inside:avoid}
 .facts b{display:block;font-family:var(--disp);font-size:40px;line-height:1;letter-spacing:0;font-weight:700}
 .facts span{color:var(--mute);font-size:14px;display:block;margin-top:8px;line-height:1.45}
 
+/* riquadro per una precisazione: non e' una citazione, e' una nota che
+   vogliamo si legga senza rubare la scena alle schede accanto */
+.quote{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);
+       padding:22px 26px 24px;max-width:74ch}
+.quote .k{display:block;font-family:var(--disp);font-size:12.5px;letter-spacing:2.2px;
+       text-transform:uppercase;color:var(--acc2);font-weight:600;margin-bottom:9px}
+.quote p{color:var(--ink2);font-size:16.5px;line-height:1.62}
+@media(max-width:560px){.quote{padding:18px 19px 20px}.quote p{font-size:15.5px}}
+
 .zonelist{font-size:18px;line-height:2.1;color:var(--ink2);max-width:100%}
 .zonelist strong{color:var(--ink)}
 
