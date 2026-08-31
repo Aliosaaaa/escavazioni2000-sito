@@ -11,7 +11,7 @@
   color-scheme: only light;
   --ink:#141b24; --ink2:#39454f; --mute:#6d7885; --line:#e4e9ee; --line2:#f0f3f6;
   --bg:#fff; --bg2:#f5f7f9; --acc:#e81820; --acc2:#c2101a; --dark:#141b24;
-  --max:1180px; --r:7px;
+  --max:1360px; --r:7px;
   --disp:"Oswald","Arial Narrow","Helvetica Neue Condensed",Impact,sans-serif;
 }
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -88,6 +88,11 @@ h3{font-size:21px;margin-bottom:6px}
 .grid{display:grid;gap:20px}
 .g2{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
 .g3{grid-template-columns:repeat(auto-fit,minmax(288px,1fr))}
+/* Sugli schermi larghi il contenitore arriva a 1360px e ci starebbero QUATTRO
+   colonne da 288: i nove servizi diventerebbero 4+4+1, con una scheda orfana.
+   Alzando il minimo a 340 solo qui, restano tre. Sotto i 1200px non si tocca
+   niente, altrimenti i portatili piccoli passerebbero da tre colonne a due. */
+@media(min-width:1200px){.g3{grid-template-columns:repeat(auto-fit,minmax(340px,1fr))}}
 /* schede lunghe (parco mezzi): una colonna sul telefono, due dal tablet in su */
 .g2w{grid-template-columns:1fr}
 @media(min-width:860px){.g2w{grid-template-columns:1fr 1fr}}
