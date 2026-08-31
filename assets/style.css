@@ -162,6 +162,15 @@ table.zones td:first-child{font-weight:700;width:36%;padding-right:16px}
 .band p{opacity:.85;margin-top:11px;max-width:58ch}
 .band .acts{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
 
+/* Fascia rossa piena: un solo concetto, detto forte. Sta sotto i box di
+   "Come lavoriamo" e non e' una call to action, quindi niente bottoni. */
+.rossa{background:var(--acc);color:#fff;padding:42px 0}
+.rossa .k{display:inline-block;font-family:var(--disp);font-size:12px;letter-spacing:2.2px;
+          text-transform:uppercase;font-weight:600;color:#fff;opacity:.85}
+.rossa h2{color:#fff;font-size:31px;line-height:1.18;margin-top:9px;max-width:24ch}
+.rossa p{color:#fff;opacity:.93;margin-top:12px;max-width:64ch;font-size:16.5px}
+@media(max-width:760px){.rossa{padding:32px 0}.rossa h2{font-size:25px}}
+
 .urg{background:linear-gradient(100deg,#280a0c,#4c1318);color:#fff;padding:30px 0;border-top:3px solid var(--acc)}
 .uacts{display:flex;gap:10px;flex-wrap:wrap}
 .urg .btn.ghost{border-color:rgba(255,255,255,.55)}
