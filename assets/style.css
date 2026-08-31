@@ -162,14 +162,16 @@ table.zones td:first-child{font-weight:700;width:36%;padding-right:16px}
 .band p{opacity:.85;margin-top:11px;max-width:58ch}
 .band .acts{margin-top:26px;display:flex;gap:12px;flex-wrap:wrap}
 
-/* Fascia rossa piena: un solo concetto, detto forte. Sta sotto i box di
-   "Come lavoriamo" e non e' una call to action, quindi niente bottoni. */
-.rossa{background:var(--acc);color:#fff;padding:42px 0}
-.rossa .k{display:inline-block;font-family:var(--disp);font-size:12px;letter-spacing:2.2px;
-          text-transform:uppercase;font-weight:600;color:#fff;opacity:.85}
-.rossa h2{color:#fff;font-size:31px;line-height:1.18;margin-top:9px;max-width:24ch}
-.rossa p{color:#fff;opacity:.93;margin-top:12px;max-width:64ch;font-size:16.5px}
-@media(max-width:760px){.rossa{padding:32px 0}.rossa h2{font-size:25px}}
+/* Fascia sotto i box di "Come lavoriamo": un solo concetto, detto forte.
+   Stesso trattamento della fascia somma urgenza (.urg) ma piu' bassa,
+   e senza bottoni: non e' una call to action. */
+.rossa{background:linear-gradient(100deg,#280a0c,#4c1318);color:#fff;padding:26px 0;
+       border-top:3px solid var(--acc)}
+.rossa .wrap{display:flex;align-items:baseline;gap:12px 26px;flex-wrap:wrap}
+.rossa .k{font-family:var(--disp);font-size:12px;letter-spacing:2.2px;text-transform:uppercase;
+          font-weight:600;color:#ff6b63;white-space:nowrap}
+.rossa p{color:#fff;font-size:20.5px;line-height:1.4;margin:0;font-weight:600;flex:1;min-width:280px}
+@media(max-width:760px){.rossa{padding:22px 0}.rossa p{font-size:17.5px}}
 
 .urg{background:linear-gradient(100deg,#280a0c,#4c1318);color:#fff;padding:30px 0;border-top:3px solid var(--acc)}
 .uacts{display:flex;gap:10px;flex-wrap:wrap}
