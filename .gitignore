@@ -1,0 +1,10 @@
+# Sorgenti del generatore: restano sul computer, non vanno pubblicate
+build.py
+ottimizza-immagini.sh
+README.md
+*.bak
+.DS_Store
+_*
+
+# .nojekyll deve restare: dice a GitHub Pages di servire i file cosi come sono
+!.nojekyll

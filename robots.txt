@@ -1,4 +1,4 @@
-# Anteprima di lavoro — non indicizzare.
-# Per la pubblicazione su escavazioni2000.it: ANTEPRIMA = False in cima a build.py.
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://www.escavazioni2000.it/sitemap.xml
